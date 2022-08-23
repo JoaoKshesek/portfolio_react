@@ -1,0 +1,28 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
