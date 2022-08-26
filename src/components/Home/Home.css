@@ -1,27 +1,21 @@
 #home {
     background: url(../../assets/images/header-bg.png) no-repeat;
-    background-position: top center;
+    background-position: right;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
-    display: none;
-}
-
-.header-text {
-    width: 60rem;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 8rem 5rem 10rem;
 }
 
 .header-text  h1 {
     color: var(--fc-primary);
-    font-size: 65px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;

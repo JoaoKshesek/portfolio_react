@@ -4,10 +4,12 @@ font-size: 62.5% !important;
 --fc-secondary: #e8e8e8; 
 --fc-tertiary: #8a8a8b; 
 --fc-quaternary: #717172; 
+--ff-primary: 'Raleway', sans-serif;
 
 }
 
 body {
 width: 100vw;
+background-color: black;
 }
 
