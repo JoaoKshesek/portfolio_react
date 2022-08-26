@@ -1,15 +1,18 @@
-#navbar {
+.navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    width: 100vw;
-    height: 50px;
+    width: 75vw;
+    height: 100vh;
+    background: linear-gradient(100deg, rgba(170, 54, 124, 0.5), rgba(74, 47, 189, 0.5));
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    right: -75vw;
 }
 
 ul {
-    display: flex;
     list-style: none;
+    width: 100%;
     gap: 5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -20,9 +23,71 @@ ul li {
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 li a{
     color: white;
     text-decoration: none;
+}
+
+.nav-toggler
+{
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(100deg, rgba(170, 54, 124, 0.7), rgba(74, 47, 189, 0.7));
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-toggler span
+{
+    height: 2px;
+    width: 2.5rem;
+    background: white;
+    display: inline-block;
+    position: relative;
+}
+.nav-toggler.open span
+{
+    background-color: transparent;
+}
+.nav-toggler span::before
+{
+    content: '';
+    height: 2px;
+    width: 2.5rem;
+    background: white;
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.nav-toggler.open span::before
+{
+    transform: rotate(45deg);
+    top: 0;
+}
+.nav-toggler span::after
+{
+    content: '';
+    height: 2px;
+    width: 2.5rem;
+    background: white;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.nav-toggler.open span::after
+{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.navigation.open {
+    right: 0;
 }

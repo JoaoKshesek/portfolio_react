@@ -3,7 +3,7 @@ import astronaut from '/src/assets/images/astronaut.png';
 
 export const Home = () => {
   return (
-    <section id="header">
+    <section id="home">
       <header>
         <div className="header-text">
           <h1>Hi! I'm João Valter</h1>

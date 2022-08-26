@@ -1,8 +1,13 @@
 :root {
 font-size: 62.5% !important;
---fc-h2: white; 
+--fc-primary: #FFFFFF; 
+--fc-secondary: #e8e8e8; 
+--fc-tertiary: #8a8a8b; 
+--fc-quaternary: #717172; 
+
 }
 
 body {
 width: 100vw;
 }
+
