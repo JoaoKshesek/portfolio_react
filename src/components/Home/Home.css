@@ -10,7 +10,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    padding: 8rem 5rem 10rem;
+    padding: 8rem 3rem 10rem;
 }
 
 .header-text  h1 {

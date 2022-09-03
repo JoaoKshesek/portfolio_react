@@ -5,6 +5,7 @@ font-size: 62.5% !important;
 --fc-tertiary: #8a8a8b; 
 --fc-quaternary: #717172; 
 --ff-primary: 'Raleway', sans-serif;
+--color-gradiente: linear-gradient(95deg, rgba(170, 54, 124, 0.95), rgba(74, 47, 189, 0.95))
 
 }
 
@@ -12,4 +13,3 @@ body {
 width: 100vw;
 background-color: black;
 }
-
