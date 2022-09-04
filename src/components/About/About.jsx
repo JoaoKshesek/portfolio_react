@@ -13,7 +13,7 @@ export const About = () => {
         <img src={hero} alt="Profile image" />
       </div>
       <div className='col-right'>
-        <h2>About me</h2>  
+        <h2>ABOUT ME</h2>  
         <p>
           I am fascinated by Physics and a discoverer in the field of programming. While I was studying Physics I had my first contact with a markup language: LaTeX. Since then I was curious about coding and, shortly after, I decided to study Systems Analysis and Development. 
         </p>

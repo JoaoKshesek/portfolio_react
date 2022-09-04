@@ -5,7 +5,7 @@ export const Resume = () => {
     <section id="resume">
       <div className='work'>
         <div className='col-left'>
-          <h2><span>Work</span></h2>
+          <h2><span>WORK</span></h2>
         </div>
         <div className='col-right'>
           <div className="item">
@@ -25,7 +25,7 @@ export const Resume = () => {
 
       <div className='education'>
         <div className='col-left'>
-          <h2><span>Education</span></h2>
+          <h2><span>EDUCATION</span></h2>
         </div>
         <div className='col-right'>
           <div className="item">
@@ -56,7 +56,7 @@ export const Resume = () => {
       </div>
       <div className='technologies'>
         <div className='col-left'>
-          <h2><span>Technologies</span></h2>
+          <h2><span>TECHNOLOGIES</span></h2>
         </div>
         <div className='col-right'>
         <div className="item">
