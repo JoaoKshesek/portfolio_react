@@ -1,6 +1,6 @@
 #resume {
     width: 100%;
-    background-color: #101010;
+    background-color: #dcdcdc;
     padding: 5rem 3rem;
 }
 
@@ -37,10 +37,7 @@
 
 h2 span{
   color: var(--fc-secondary);
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
+
 }
 
 h3 {

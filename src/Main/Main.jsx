@@ -1,5 +1,5 @@
-import '../css/Main.css'
 import '../css/Default.css'
+import '../css/Main.css'
 import { NavBar } from "../components/Navbar/Navbar";
 import { Home } from "../components/Home/Home";
 import { About } from "../components/About/About";

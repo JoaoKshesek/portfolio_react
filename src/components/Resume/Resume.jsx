@@ -12,7 +12,7 @@ export const Resume = () => {
     <section id="resume">
       <div className='work'>
         <div className='col-left'>
-          <h2><span>WORK</span></h2>
+          <h2>WORK</h2>
         </div>
         <div className='col-right'>
           <div className="item">
@@ -37,26 +37,22 @@ export const Resume = () => {
         <div className='col-right'>
           <div className="item">
             <h3>Faculdade Descomplica</h3>
-            <p>Systems Analysis and Development</p>
-            <p>January, 2022 — Present</p>
+            <p>Systems Analysis and Development • January, 2022 — Present</p>
             <p>The Systems Analysis and Development course aims to enable students to design, document, specify, implement, test, deploy, and maintain computer information systems.</p>
           </div>
           <div className="item">
             <h3>Explorer</h3>
-            <p>Rocketseat</p>
-            <p>August, 2022 — Present</p>
+            <p>Rocketseat • August, 2022 — Present</p>
             <p>An immersive course focused on Full Stack training, based on real world challenges and using the 7-2-1 method: 70% coding, 20% networking and 10% branding.</p>
           </div>
           <div className="item">
             <h3>Full Stack JavaScript</h3>
-            <p>One Bit Code</p>
-            <p>May, 2022 — Present</p>
+            <p>One Bit Code • May, 2022 — Present</p>
             <p>A complete course focused on fullstack programming, from basic concepts in HTML and CSS to advanced programming in Reacts and Typescript.</p>
           </div>
           <div className="item">
             <h3>Finances with Python</h3>
-            <p>Python Academy</p>
-            <p>January, 2022 — April, 2022</p>
+            <p>Python Academy • January, 2022 — April, 2022</p>
             <p>A course focused on the use and application of Python in Finance, developing calculations and simulations of return on investments and also their risks and rates.</p>
           </div>
         </div>
