@@ -1,0 +1,14 @@
+#technologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #dcdcdc;
+    padding: 5rem 3rem;
+}
+  
+.items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
