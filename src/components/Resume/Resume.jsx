@@ -1,10 +1,5 @@
 import './Resume.css';
-import html from '/src/assets/images/html.png';
-import css from '/src/assets/images/css.png';
-import javascript from '/src/assets/images/javascript.png';
-import react from '/src/assets/images/react.png';
-import node from '/src/assets/images/node.png';
-import git from '/src/assets/images/git.png';
+
 
 
 export const Resume = () => {
@@ -16,7 +11,7 @@ export const Resume = () => {
         </div>
         <div className='col-right'>
           <div className="item">
-            <h3>Despachante Valentin Duarte</h3>
+            <h3>Despachante Duarte</h3>
             <p>Administrative Assistant</p>
             <p>February, 2021 — April, 2022</p>
             <p>Customer service, focusing on solving customer problems quickly and effectively Elaboration of spreadsheets to control and organize processes Preparation of various documentation, electronic and printed, to be sent to customers, with emphasis on agile work Started to develop a new project for the company's website, using ReactJS as the main technology</p>
@@ -36,57 +31,41 @@ export const Resume = () => {
         </div>
         <div className='col-right'>
           <div className="item">
-            <h3>Faculdade Descomplica</h3>
+            <h3>Descomplica College</h3>
             <p>Systems Analysis and Development • January, 2022 — Present</p>
             <p>The Systems Analysis and Development course aims to enable students to design, document, specify, implement, test, deploy, and maintain computer information systems.</p>
           </div>
           <div className="item">
-            <h3>Explorer</h3>
-            <p>Rocketseat • August, 2022 — Present</p>
+            <h3>Rocketseat</h3>
+            <p>Explorer • August, 2022 — Present</p>
             <p>An immersive course focused on Full Stack training, based on real world challenges and using the 7-2-1 method: 70% coding, 20% networking and 10% branding.</p>
           </div>
           <div className="item">
-            <h3>Full Stack JavaScript</h3>
-            <p>One Bit Code • May, 2022 — Present</p>
+            <h3>One Bit Code</h3>
+            <p>Full Stack JavaScript • May, 2022 — Present</p>
             <p>A complete course focused on fullstack programming, from basic concepts in HTML and CSS to advanced programming in Reacts and Typescript.</p>
           </div>
           <div className="item">
-            <h3>Finances with Python</h3>
-            <p>Python Academy • January, 2022 — April, 2022</p>
+            <h3>Python Academy</h3>
+            <p>Finances with Python • January, 2022 — April, 2022</p>
             <p>A course focused on the use and application of Python in Finance, developing calculations and simulations of return on investments and also their risks and rates.</p>
           </div>
         </div>
       </div>
-      <div className='technologies'>
+
+      <div className='languages'>
         <div className='col-left'>
-          <h2><span>TECHNOLOGIES</span></h2>
+          <h2>LANGUAGES</h2>
         </div>
         <div className='col-right'>
-          <p>Here are the languages and technologies that I use :</p>
-        <div className="item">
-            <img src={html} alt="" />
-            <h4>HTML 5</h4>
-            </div>
-            <div className="item">
-            <img src={css} alt="" />
-            <h4>CSS 3</h4>
-            </div>
-            <div className="item">
-            <img src={javascript} alt="" />
-            <h4>Javascript</h4>
-            </div>
-            <div className="item">
-            <img src={react} alt="" />
-            <h4>ReactJS</h4>
-            </div>
-            <div className="item">
-            <img src={node} alt="" />
-            <h4>NodeJS</h4>
-            </div>
-            <div className="item">
-            <img src={git} alt="" />
-            <h4>Git</h4>
-            </div>
+          <div className="item">
+            <h3>Portuguese</h3>
+            <p>Native, fluent</p>
+          </div>
+          <div className="item">
+            <h3>English</h3>
+            <p>Intermediate</p>
+          </div>
         </div>
       </div>
     </section>
