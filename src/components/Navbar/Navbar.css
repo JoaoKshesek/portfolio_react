@@ -11,30 +11,21 @@
 }
 
 ul {
-    list-style: none;
     width: 100%;
-    gap: 5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-family: var(--ff-primary);
-}
-
-ul li {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 50px;
-    font-size: 1.6rem;
-    margin: 0 auto;
+    
 }
 
 li a{
+    text-transform: uppercase;
+    font-family: var(--ff-primary);
+    font-size: 1.6rem;
     color: white;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .nav-toggler

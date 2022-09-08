@@ -13,29 +13,20 @@ header {
     padding: 8rem 3rem 10rem;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .header-text  h1 {
     color: var(--fc-primary);
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1;
-    margin-bottom: 20px;  
 }
 .header-text  h2 {
     color: var(--fc-secondary);
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1;
-    margin-bottom: 20px;  
 }
 .header-text p {
     color: var(--fc-tertiary);
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    width: 96%;
-    font-family: 'Raleway', sans-serif;
 }
 
 .header-image img {
