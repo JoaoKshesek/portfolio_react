@@ -11,6 +11,7 @@
   background: var(--color-gradiente);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 #resume p span {

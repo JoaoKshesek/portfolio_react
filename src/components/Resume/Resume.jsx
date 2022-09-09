@@ -98,22 +98,27 @@ export const Resume = () => {
         <div className="item">
           <img src={css} alt="" />
           <h3>CSS 3</h3>
+          <p>While HTML is used to structure a web document, Cascading Style Sheet language comes through and specifies your document’s style — page layouts, colors, and fonts are all determined with CSS syntax, meaning that CSS is one important language for you to master in terms of styling your web pages!</p>
         </div>
         <div className="item">
           <img src={javascript} alt="" />
           <h3>Javascript</h3>
+          <p>JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</p>
         </div>
         <div className="item">
           <img src={react} alt="" />
           <h3>ReactJS</h3>
+          <p>React is a library to create single page web or mobile applications and building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time.</p>
         </div>
         <div className="item">
           <img src={node} alt="" />
           <h3>NodeJS</h3>
+          <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine (i.e. V8 engine) and executes JavaScript code outside a web browser, which was designed to build scalable network applications.</p>
         </div>
         <div className="item">
           <img src={git} alt="" />
           <h3>Git</h3>
+          <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
         </div>
       </div>
     </div>
