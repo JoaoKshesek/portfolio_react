@@ -1,33 +1,30 @@
 #about {
     width: 100vw;
     background-color: #101010;
-    justify-content: center;
-    padding: 5rem 3rem;
 }
 
-.col-left img {
+#about .col-left img {
     display: none;
     width: 30rem;
     border-radius: 10px;
 }
 
-.col-right h2 {
+#about .col-right h2 {
     color: var(--fc-secondary);
     margin-bottom: 2rem;  
 }
 
-.col-right p {
-    color: var(--fc-quaternary);
+#about .col-right p {
     margin-bottom: 1.5rem;
 }
 
-.social-media {
+#about .social-media {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.btn {
+#about .btn {
     display: flex;
     justify-content: center;
     align-items: center;

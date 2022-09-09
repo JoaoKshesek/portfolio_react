@@ -1,20 +1,33 @@
 #resume {
-    width: 100%;
-    background-color: #dcdcdc;
-    padding: 5rem 3rem;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+#resume h2{
+  color: #404040;
+  margin-bottom: 2rem;
 }
 
-.col-left {
+#resume h3 {
+  background: var(--color-gradiente);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#resume p span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#resume .col-left {
   display: flex;
   justify-content: center;
-
 }
 
-.col-left h2 {
+#resume .col-left h2 {
   position: relative;
 }
 
-.col-left h2::before {
+#resume .col-left h2::before {
   content: '';
   height: 2px;
   width: 100%;
@@ -24,7 +37,7 @@
   left: 0;
 }
 
-.col-left h2::after {
+#resume .col-left h2::after {
   content: '';
   height: 2px;
   width: 50%;
@@ -35,15 +48,35 @@
   margin-top: 8px;
 }
 
-h2{
-  color: #404040;
-  margin-bottom: 30px;
+
+#resume .technologies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h3 {
+#resume .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#resume p {
+  margin-bottom: 1rem;
+}
+
+#resume .info {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+hr {
   background: var(--color-gradiente);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px;  
+  height: 1px;
+  border: none;
 }
 
+#resume .technologies .col-right > p{
+  margin-top: 2rem;
+}
