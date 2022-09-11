@@ -7,48 +7,12 @@
   margin-bottom: 2rem;
 }
 
-#resume h3 {
-  background: var(--color-gradiente);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
-}
 
 #resume p span {
   font-style: italic;
   font-weight: bold;
 }
-
-#resume .col-left {
-  display: flex;
-  justify-content: center;
-}
-
-#resume .col-left h2 {
-  position: relative;
-}
-
-#resume .col-left h2::before {
-  content: '';
-  height: 2px;
-  width: 100%;
-  background: var(--color-gradiente);
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-#resume .col-left h2::after {
-  content: '';
-  height: 2px;
-  width: 50%;
-  background: var(--color-gradiente);
-  position: absolute;
-  top: 100%;
-  left: 0;
-  margin-top: 8px;
-}
-
 
 #resume .technologies{
   display: flex;
@@ -72,11 +36,7 @@
   margin-bottom: 1.5rem;
 }
 
-hr {
-  background: var(--color-gradiente);
-  height: 1px;
-  border: none;
-}
+
 
 #resume .technologies .col-right > p{
   margin-top: 2rem;

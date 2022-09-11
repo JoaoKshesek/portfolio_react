@@ -46,7 +46,7 @@ export const Resume = () => {
           </div>
           <div className="item">
             <a href="https://www.rocketseat.com.br/" target="_blank">
-            <h3>Rocketseat</h3>
+              <h3>Rocketseat</h3>
             </a>
             <p className='info'><span>Explorer</span> • August, 2022 — Present</p>
             <p>An immersive course focused on Full Stack training, based on real world challenges and using the 7-2-1 method: 70% coding, 20% networking and 10% branding.</p>
@@ -88,40 +88,41 @@ export const Resume = () => {
         <div className="col-left">
           <h2><span>TECHNOLOGIES</span></h2>
         </div>
-      <div className="col-right">
-      <p>Here are the languages and technologies that I use :</p>
-        <div className="item">
-          <img src={html} alt="" />
-          <h3>HTML 5</h3>
-          <p>It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. </p>
-        </div>
-        <div className="item">
-          <img src={css} alt="" />
-          <h3>CSS 3</h3>
-          <p>While HTML is used to structure a web document, Cascading Style Sheet language comes through and specifies your document’s style — page layouts, colors, and fonts are all determined with CSS syntax, meaning that CSS is one important language for you to master in terms of styling your web pages!</p>
-        </div>
-        <div className="item">
-          <img src={javascript} alt="" />
-          <h3>Javascript</h3>
-          <p>JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</p>
-        </div>
-        <div className="item">
-          <img src={react} alt="" />
-          <h3>ReactJS</h3>
-          <p>React is a library to create single page web or mobile applications and building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time.</p>
-        </div>
-        <div className="item">
-          <img src={node} alt="" />
-          <h3>NodeJS</h3>
-          <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine (i.e. V8 engine) and executes JavaScript code outside a web browser, which was designed to build scalable network applications.</p>
-        </div>
-        <div className="item">
-          <img src={git} alt="" />
-          <h3>Git</h3>
-          <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+        <div className="col-right">
+          <p>Here are the languages and technologies that I use :</p>
+          <div className="item">
+            <img src={html} alt="" />
+            <h3>HTML 5</h3>
+            <p>It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. </p>
+          </div>
+          <div className="item">
+            <img src={css} alt="" />
+            <h3>CSS 3</h3>
+            <p>While HTML is used to structure a web document, Cascading Style Sheet language comes through and specifies your document’s style — page layouts, colors, and fonts are all determined with CSS syntax, meaning that CSS is one important language for you to master in terms of styling your web pages!</p>
+          </div>
+          <div className="item">
+            <img src={javascript} alt="" />
+            <h3>Javascript</h3>
+            <p>JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</p>
+          </div>
+          <div className="item">
+            <img src={react} alt="" />
+            <h3>ReactJS</h3>
+            <p>React is a library to create single page web or mobile applications and building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time.</p>
+          </div>
+          <div className="item">
+            <img src={node} alt="" />
+            <h3>NodeJS</h3>
+            <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine (i.e. V8 engine) and executes JavaScript code outside a web browser, which was designed to build scalable network applications.</p>
+          </div>
+          <div className="item">
+            <img src={git} alt="" />
+            <h3>Git</h3>
+            <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+          </div>
         </div>
       </div>
-    </div>
+      <hr />
     </section>
   )
 }
