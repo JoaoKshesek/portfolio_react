@@ -1,0 +1,9 @@
+{
+    "translation": {
+        "navbar_home": "Início",
+		"navbar_about": "Sobre",
+		"navbar_resume": "Currículo",
+		"navbar_projects": "Projetos",
+		"navbar_contact": "Contato"
+    }
+}

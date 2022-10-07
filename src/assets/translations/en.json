@@ -1,0 +1,94 @@
+{
+	"translation":{
+		"navbar_home": "Home",
+		"navbar_about": "About",
+		"navbar_resume": "Resume",
+		"navbar_projects": "Projects",
+		"navbar_contact": "Contact",
+
+		"header_title": "HI! I'm João Valter",
+		"header_career_01": "A Web Developer",
+		"header_career_02": "A Physics enthusiast",
+		"header_career_03": "A Piano player",
+		"header_description": "Graduating in Systems Analysis and Development with successful experience in developing logical solutions to complex problems.",
+
+		"about_me": "About me",
+
+		"about_p1": "I am fascinated by Physics and a discoverer in the field of programming. While I was studying Physics I had my first contact with a markup language: LaTeX. Since then I was curious about coding and, shortly after, I decided to study Systems Analysis and Development.",
+		"about_p2": "I am a motivated and well-organized person, always looking for a new way to learn.",
+		"about_p3": "At college I studied Python first and then PHP. But it was when I started studying HTML, CSS and JavaScript that I felt programming was what I really wanted to do for my life.",
+		"about_download": "Download resume",
+		
+		"resume_work": "Work",
+
+		"resume_job2_company":"Despachante Duarte",
+		"resume_job2_occupation":"Administrative Assistant",
+		"resume_job2_date":"February, 2021 — April, 2022",
+		"resume_job2_details":"Customer service, focusing on solving customer problems quickly and effectively. Elaboration of spreadsheets to control and organize processes Preparation of various documentation, electronic and printed, to be sent to customers, with emphasis on agile work.",
+
+		"resume_job1_company":"Portal Cível & Trabalhista",
+		"resume_job1_occupation":"Administrative Assistant",
+		"resume_job1_date":"November, 2017 — April, 2020",
+		"resume_job1_details":"I helped in the elaboration of spreadsheet for calculating refinancing of bank loans, consortium and leasing. I collect and analyze data from bank statements.",
+
+		"resume_education": "Education",
+
+		"resume_college_title": "Descomplica College",
+		"resume_college_course": "Systems Analysis and Development",
+		"resume_college_date": "January, 2022 — Present",
+		"resume_college_details": "The Systems Analysis and Development course aims to enable students to design, document, specify, implement, test, deploy, and maintain computer information systems.",
+
+		"resume_course3_company": "Rocketseat",
+		"resume_course3_title": "Explorer",
+		"resume_course3_date": "August, 2022 — Present",
+		"resume_course3_details": "An immersive course focused on Full Stack training, based on real world challenges and using the 7-2-1 method: 70% coding, 20% networking and 10% branding.",
+
+		"resume_course2_company": "One Bit Code",
+		"resume_course2_title": "Full Stack JavaScript",
+		"resume_course2_date": "May, 2022 — Present",
+		"resume_course2_details": "A complete course focused on fullstack programming, from basic concepts in HTML and CSS to advanced programming in Reacts and Typescript.",
+
+		"resume_course1_company": "Python Academy",
+		"resume_course1_title": "Finances with Python",
+		"resume_course1_date": "January, 2022 — April, 2022",
+		"resume_course1_details": "A course focused on the use and application of Python in Finance, developing calculations and simulations of return on investments and also their risks and rates.",
+
+		"resume_language": "Languages",
+
+		"resume_portuguese": "Portuguese",
+		"resume_portuguese_details": "Fluent, native",
+		"resume_english": "English",
+		"resume_english_details": "Intermediate",
+
+		"resume_technologies": "Technologies",
+
+		"resume_technologies_description": "Here are the languages and technologies that I use:",
+
+		"resume_technologies_html": "It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.",
+		"resume_technologies_css": "While HTML is used to structure a web document, Cascading Style Sheet language comes through and specifies your document’s style — page layouts, colors, and fonts are all determined with CSS syntax, meaning that CSS is one important language for you to master in terms of styling your web pages!",
+		"resume_technologies_javascript": "JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.",
+		"resume_technologies_react": "React is a library to create single page web or mobile applications and building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time.",
+		"resume_technologies_nodejs": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine (i.e. V8 engine) and executes JavaScript code outside a web browser, which was designed to build scalable network applications.",
+		"resume_technologies_git": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+
+		"resume_projects": "Projects",
+
+		"resume_projects_description": "Here are my latest projects:",
+
+		"resume_project1_title": "Quebra-Galho",
+		"resume_project1_description": "This was my first project developing the Front and Back-end, using PHP as the main language and MySQL for the database. The project consists of a platform where the user registers an item to be borrowed, informing the date to be returned.",
+		"resume_project1_button": "See on Github",
+
+		"resume_contact": "Get in Touch",
+
+		"resume_contact_name": "First Name",
+		"resume_contact_lastName": "Last Name",
+		"resume_contact_email": "Email Address",
+		"resume_contact_phone": "Phone Number",
+		"resume_contact_message": "Message",
+		"resume_contact_button": "Send",
+
+
+		"resume_copyright": "Copyright 2022. All Rights Reserved."
+	}
+}
