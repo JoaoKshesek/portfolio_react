@@ -10,7 +10,9 @@
 }
 
 #about .col-right h2 {
-    color: var(--fc-secondary);
+    background: var(--color-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;  
 }
 

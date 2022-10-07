@@ -7,6 +7,8 @@ import { Resume } from "../components/Resume/Resume";
 import { Projects } from "../components/Projects/Projects";
 import { Contact } from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
+import { Languages } from "../pages/Languages";
+
 
 
 
@@ -17,9 +19,11 @@ function Main() {
       <Home />
       <About />
       <Resume />
+      <Languages />
       <Projects />
       <Contact />
       <Footer />
+
     </div>
   );
 }
