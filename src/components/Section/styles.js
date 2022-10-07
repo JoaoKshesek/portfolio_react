@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
     width: 100%;
     background: ${({ theme }) => theme.COLORS.BACKGROUND_100};
-    padding: 50px 0px;
+    padding: 50px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,6 +16,8 @@ export const Container = styled.section`
         line-height: 1;
         color: ${({ theme }) => theme.COLORS.GRAY_500};
         position: relative;
+        text-transform: uppercase;
+        margin-bottom: 15px;
     }
     h2::before {
         content: '';
@@ -38,10 +40,30 @@ export const Container = styled.section`
         margin-top: 8px;
     }
 
-    > hr {
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
         background: ${({ theme }) => theme.COLORS.GRADIENT};
-        height: 1px; 
-        width: 100%;
-        border: none;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        font-family: var(--ff-primary);
+        color: var(--fc-quaternary);
+        text-align: justify;
+        padding-top: 10px;
+
+        > span {
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+    > img {
+        margin: 30px 0 -30px 0;
     }
  `;
