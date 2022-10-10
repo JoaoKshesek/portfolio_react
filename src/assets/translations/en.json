@@ -6,7 +6,7 @@
 		"navbar_projects": "Projects",
 		"navbar_contact": "Contact",
 
-		"header_title": "HI! I'm João Valter",
+		"header_title": "I'm João Valter",
 		"header_career_01": "A Web Developer",
 		"header_career_02": "A Physics enthusiast",
 		"header_career_03": "A Piano player",
@@ -17,7 +17,8 @@
 		"about_p1": "I am fascinated by Physics and a discoverer in the field of programming. While I was studying Physics I had my first contact with a markup language: LaTeX. Since then I was curious about coding and, shortly after, I decided to study Systems Analysis and Development.",
 		"about_p2": "I am a motivated and well-organized person, always looking for a new way to learn.",
 		"about_p3": "At college I studied Python first and then PHP. But it was when I started studying HTML, CSS and JavaScript that I felt programming was what I really wanted to do for my life.",
-		"about_download": "Download resume",
+		"about_download_EN": "Download resume EN_US",
+		"about_download_PT": "Download resume PT_BR",
 		
 		"resume_work": "Work",
 
@@ -82,7 +83,6 @@
 		"resume_contact": "Get in Touch",
 
 		"resume_contact_name": "First Name",
-		"resume_contact_lastName": "Last Name",
 		"resume_contact_email": "Email Address",
 		"resume_contact_phone": "Phone Number",
 		"resume_contact_message": "Message",
