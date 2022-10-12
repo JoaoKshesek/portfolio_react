@@ -6,19 +6,20 @@ export const Container = styled.section`
     background-position: right;
     background-size: cover;
 
-    min-height: 100vh;
+    height: 100vh;
     padding: 0px 30px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
  `;
 export const Header = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 80px 0 50px 0;
+    padding: 50px 0 0px 0;
 
     > h1 {
         font-size: 3rem;
@@ -46,21 +47,22 @@ export const Header = styled.div`
         letter-spacing: 0.8px;
         line-height: 1.5em;
         font-family: var(--ff-primary);
-        color: var(--fc-quaternary);
+        color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
     }
 `;
 
 export const Button = styled.button`
-    width: 50%;
+    width: 100%;
     height: 40px;
-    margin: 40px 0;
-    background: linear-gradient(90deg, rgba(170, 54, 124, 0.5), rgba(74, 47, 189, 0.5));
-    border: 1px solid rgba(244,244,244,0.2);
+    margin-bottom: 30px ;
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(170, 54, 124, 0.6), rgba(74, 47, 189, 0.6));
+    border: 1px solid rgba(244,244,244,0.6);
     outline: none;
     color: ${({ theme }) => theme.COLORS.WHITE};
     border-radius: 5px;
-    font-weight: bold;
+    text-transform: uppercase;
 
 `;
 

@@ -18,7 +18,7 @@ export function Projects(){
                 <ResumeItem title={t('resume_project1_title')}>
                     <p>{t('resume_project1_description')}</p>
                 </ResumeItem>
-                    <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume">
+                    <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
                         <Button title={t('resume_project1_button')} /> 
                     </a>
 

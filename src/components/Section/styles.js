@@ -54,7 +54,7 @@ export const Container = styled.section`
         letter-spacing: 0.8px;
         line-height: 1.5em;
         font-family: var(--ff-primary);
-        color: var(--fc-quaternary);
+        color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
         padding-top: 10px;
 
@@ -65,5 +65,8 @@ export const Container = styled.section`
     }
     > img {
         margin: 30px 0 -30px 0;
+    }
+    > a {
+        width: 100%;
     }
  `;

@@ -18,7 +18,7 @@ export const Container = styled.section`
         letter-spacing: 0.8px;
         line-height: 1.5em;
         font-family: var(--ff-primary);
-        color: var(--fc-quaternary);
+        color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
         margin-bottom: 15px;
     }

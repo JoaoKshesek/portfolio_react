@@ -15,4 +15,7 @@ export const Container = styled.section`
         text-transform: uppercase;
         margin-bottom: 15px;
     }
+    > Button {
+        border: 1px solid rgba(244,244,244, 0.7);
+    }
  `;

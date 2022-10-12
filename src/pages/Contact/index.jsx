@@ -7,37 +7,32 @@ import { Button } from "../../components/Button"
 import { Input } from "../../components/Input"
 import { Textarea } from "../../components/Textarea"
 
-
-
 import { Container } from "./styles";
 
 export function Contact(){
     const {t} = useTranslation();
     return(
         <Container>
-            <h2>{t('resume_contact')}</h2>
+            <h2>{t('contact')}</h2>
             <Input 
-                placeholder={t('resume_contact_name')}
+                placeholder={t('contact_name')}
                 type="text"
                 icon={FiUser}
             />
             <Input 
-                placeholder={t('resume_contact_phone')}
+                placeholder={t('contact_phone')}
                 type="email"
                 icon={FiPhone}
             />
             <Input 
-                placeholder={t('resume_contact_email')}
+                placeholder={t('contact_email')}
                 type="email"
                 icon={FiMail}
             />
             <Textarea 
-                placeholder={t('resume_contact_message')}
+                placeholder={t('contact_message')}
             />
-            <Button title={t('resume_contact_button')} />
-
-
-
+            <Button title={t('contact_button')} />
         </Container>
     )
 }

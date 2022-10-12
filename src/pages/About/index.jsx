@@ -19,17 +19,16 @@ export function About(){
             <p>{t('about_p2')}</p>
             <p>{t('about_p3')}</p>
 
-
             <Links>
-            <a href="">
-                <img src={github} alt="Link Github" />
-            </a>
-            <a href="">
-                <img src={linkedin} alt="Link Github" />
-            </a>
-            <a href="">
-                <img src={whatsapp} alt="Link Github" />
-            </a>
+                <a href="https://github.com/JoaoKshesek" target="_blank">
+                    <img src={github} alt="Link Github" />
+                </a>
+                <a href="https://www.linkedin.com/in/joao-valter-kshesek/" target="_blank">
+                    <img src={linkedin} alt="Link LinkedIn" />
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=5541995531007" target="_blank">
+                    <img src={whatsapp} alt="Link WhatsApp" />
+                </a>
             </Links>
 
             <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">

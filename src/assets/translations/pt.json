@@ -81,15 +81,15 @@
 		"resume_project1_description": "This was my first project developing the Front and Back-end, using PHP as the main language and MySQL for the database. The project consists of a platform where the user registers an item to be borrowed, informing the date to be returned.",
 		"resume_project1_button": "See on Github",
 
-		"resume_contact": "Get in Touch",
+		"contact": "Get in Touch",
 
-		"resume_contact_name": "First Name",
-		"resume_contact_email": "Email Address",
-		"resume_contact_phone": "Phone Number",
-		"resume_contact_message": "Message",
-		"resume_contact_button": "Send",
+		"contact_name": "First Name",
+		"contact_email": "Email Address",
+		"contact_phone": "Phone Number",
+		"contact_message": "Message",
+		"contact_button": "Send",
 
 
-		"resume_copyright": "Copyright 2022. All Rights Reserved."
+		"copyright": "Copyright 2022. All Rights Reserved."
     }
 }
