@@ -14,4 +14,5 @@ export const Container = styled.button`
     font-size: 18px;
     cursor: pointer;
     text-transform: uppercase;
+    border: 1px solid rgba(244, 244, 244, 0.7);
 `;
