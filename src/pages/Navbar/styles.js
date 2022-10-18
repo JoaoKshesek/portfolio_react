@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../components/MediaQuery'
 
 export const Container = styled.section`
 > nav {
@@ -28,8 +29,8 @@ export const Container = styled.section`
             width: 100%;
         }
     }
-}
 
+}
 
 .translate {
     display: flex;
@@ -118,6 +119,50 @@ export const Container = styled.section`
 .active {
   background: rgba(244,244,244, 0.5);
   color: rgba(170, 29, 151, 1);
+}
+
+@media ${device.laptop} { 
+    nav {
+        display: flex;
+        width: 100%;
+        right: 0;
+        position: fixed;
+        height: 50px;
+        background: rgba(0,0,0,0.1);
+        z-index: 100;
+
+        box-shadow: none;
+
+        > ul {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            > li a:hover {
+                background: ${({ theme }) => theme.COLORS.GRADIENT};
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    .nav-toggler {
+        display: none;
+    }
+    .active {
+        background: ${({ theme }) => theme.COLORS.GRADIENT};
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+    }
+    .active::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background: ${({ theme }) => theme.COLORS.GRADIENT};
+        position: absolute;
+        top: 40px;
+        left: 0;
+        
+    }
 }
 
  `;
