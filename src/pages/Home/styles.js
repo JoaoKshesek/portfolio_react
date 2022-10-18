@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import background from '../../assets/images/header-bg.png'
+import { device } from '../../components/MediaQuery'
+
 
 export const Container = styled.section`
     background: url(${background});
@@ -13,6 +15,8 @@ export const Container = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+
  `;
 export const Header = styled.div`
     display: flex;
@@ -50,6 +54,8 @@ export const Header = styled.div`
         color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
     }
+
+    
 `;
 
 export const Button = styled.button`

@@ -32,6 +32,7 @@ export function Home(){
     
     return(
         <Container>
+
             <Header>
                 <h1>{t('header_title')}</h1>
                 <h2>
@@ -39,13 +40,14 @@ export function Home(){
                 </h2>
                 <p>{t('header_description')}</p>
             </Header>
-        <Img>
-          <img src={astronaut} alt="Astronaut reading"/>
-        </Img>
+            <Img>
+              <img src={astronaut} alt="Astronaut reading"/>
+            </Img>
 
-        <Button>
-            View more
-        </Button>
+
+          <Button>
+              View more
+          </Button>
 
         </Container>
     )
