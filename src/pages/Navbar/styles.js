@@ -136,7 +136,9 @@ export const Container = styled.section`
         > ul {
             display: flex;
             justify-content: center;
-            gap: 50px;
+            gap: 65px;
+
+
             > li a:hover {
                 background: ${({ theme }) => theme.COLORS.GRADIENT};
                 -webkit-background-clip: text;
