@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { device } from '../../components/MediaQuery'
+
 
 export const Container = styled.section`
     width: 100%;
@@ -69,4 +71,15 @@ export const Container = styled.section`
     > a {
         width: 100%;
     }
+    @media ${device.laptop} { 
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
  `;
+export const Content = styled.div`
+    @media ${device.laptop} { 
+            max-width: 800px;
+            margin-top: -30px;
+        }
+`;
