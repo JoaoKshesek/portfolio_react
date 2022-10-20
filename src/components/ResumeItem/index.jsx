@@ -1,9 +1,8 @@
 import { Container } from "./styles";
 
-export function ResumeItem({ title, children }) {
+export function ResumeItem({ children }) {
     return (
         <Container>
-            <h3>{title}</h3>
             {children}
         </Container>
     );
