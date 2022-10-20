@@ -78,8 +78,22 @@ export const Container = styled.section`
     }
  `;
 export const Content = styled.div`
-    @media ${device.laptop} { 
-            max-width: 800px;
-            margin-top: -30px;
+            display: flex;
+            flex-direction: column;
+        @media ${device.laptop} { 
+            width: 800px;
+            align-items: flex-start;
+            gap: 30px;
         }
+`;
+export const Teste = styled.div`
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        @media ${device.laptop} { 
+            width: 340px;
+        }
+
+    
 `;
