@@ -15,7 +15,8 @@ export function Projects(){
         <Container>
             <Section title={t('resume_projects')}>
                 <p>{t('resume_projects_description')}</p>
-                <ResumeItem title={t('resume_project1_title')}>
+                <ResumeItem>
+                    <h3>{t('resume_project1_title')}</h3>
                     <p>{t('resume_project1_description')}</p>
                 </ResumeItem>
                     <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
