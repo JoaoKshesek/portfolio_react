@@ -47,7 +47,7 @@ export function Home(){
 
 
           <Button>
-              View more
+            {t('header_button')}
           </Button>
 
         </Container>

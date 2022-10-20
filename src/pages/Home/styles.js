@@ -75,18 +75,22 @@ export const Header = styled.div`
 
 export const Button = styled.button`
     width: 100%;
-    height: 40px;
+    height: 45px;
     margin-bottom: 30px ;
     font-size: 18px;
     background: linear-gradient(90deg, rgba(170, 54, 124, 0.6), rgba(74, 47, 189, 0.6));
-    border: 1px solid rgba(244,244,244,0.6);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     outline: none;
     color: ${({ theme }) => theme.COLORS.WHITE};
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    @media ${device.tablet} { 
-       max-width: 500px;
+
+    @media ${device.mobileL} { 
+       max-width: 400px;
     }
 `;
 
