@@ -11,6 +11,7 @@
 		"header_career_02": "A Physics enthusiast",
 		"header_career_03": "A Piano player",
 		"header_description": "Graduating in Systems Analysis and Development with successful experience in developing logical solutions to complex problems.",
+		"header_button": "View more",
 
 		"about_me": "About me",
 
@@ -35,18 +36,18 @@
 		"resume_education": "Education",
 
 		"resume_college_title": "Descomplica College",
-		"resume_college_course": "Systems Analysis and Development",
-		"resume_college_date": "January, 2022 — Present",
+		"resume_college_course": "Technology in Systems Analysis and Development",
+		"resume_college_date": "January, 2022 — Current",
 		"resume_college_details": "The Systems Analysis and Development course aims to enable students to design, document, specify, implement, test, deploy, and maintain computer information systems.",
 
 		"resume_course3_company": "Rocketseat",
 		"resume_course3_title": "Explorer",
-		"resume_course3_date": "August, 2022 — Present",
+		"resume_course3_date": "August, 2022 — Current",
 		"resume_course3_details": "An immersive course focused on Full Stack training, based on real world challenges and using the 7-2-1 method: 70% coding, 20% networking and 10% branding.",
 
 		"resume_course2_company": "One Bit Code",
 		"resume_course2_title": "Full Stack JavaScript",
-		"resume_course2_date": "May, 2022 — Present",
+		"resume_course2_date": "May, 2022 — Current",
 		"resume_course2_details": "A complete course focused on fullstack programming, from basic concepts in HTML and CSS to advanced programming in Reacts and Typescript.",
 
 		"resume_course1_company": "Python Academy",
