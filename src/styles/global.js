@@ -39,7 +39,7 @@ export default createGlobalStyle`
         list-style-type: none;
         overflow-x: hidden;
         width: 100vw;
-        background-color: #101010;
+        background-color: #dcdcdc;
     }
     ol, ul {
         list-style: none;
