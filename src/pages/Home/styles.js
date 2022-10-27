@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import background from '../../assets/images/header-bg.png'
 import { device } from '../../components/MediaQuery'
 
-
 export const Container = styled.section`
     background: url(${background});
     background-position: right;
@@ -16,7 +15,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: space-around;
  `;
- export const Content = styled.div`
+ export const Teste = styled.div`
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -27,9 +26,24 @@ export const Container = styled.section`
         flex-direction: row;
         margin-top: 150px;
         gap: 200px;
-        width: 980px;
+        max-width: 980px;
+        max-width: 500px;
     }
 `;
+export const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    @media ${device.laptop} { 
+        flex-direction: row;
+        margin-top: 150px;
+        gap: 200px;
+        max-width: 500px;
+    }
+`;
+
 export const Header = styled.div`
     display: flex;
     flex-direction: column;

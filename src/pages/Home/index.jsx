@@ -5,7 +5,7 @@ import Typed from 'typed.js'
 import { useEffect, useRef } from 'react';
 import astronaut from '../../assets/images/astronaut.png';
 
-import { Container, Content, Header, Img, Button } from "./styles";
+import { Container, Content, Teste, Header, Img, Button } from "./styles";
 
 export function Home(){
     const {t} = useTranslation();
@@ -33,22 +33,25 @@ export function Home(){
     return(
         <Container>
           <Content>
-              <Header>
-                  <h1>{t('header_title')}</h1>
-                  <h2>
-                      <span ref={el}></span>
-                  </h2>
-                  <p>{t('header_description')}</p>
-              </Header>
-              <Img>
-                <img src={astronaut} alt="Astronaut reading"/>
-              </Img>
+            <Teste>
+                <Header>
+                    <h1>{t('header_title')}</h1>
+                    <h2>
+                        <span ref={el}></span>
+                    </h2>
+                    <p>{t('header_description')}</p>
+                </Header>
+                <Img>
+                  <img src={astronaut} alt="Astronaut reading"/>
+                </Img>
+            </Teste>
+
+
+            <Button>
+              {t('header_button')}
+            </Button>
+
           </Content>
-
-
-          <Button>
-            {t('header_button')}
-          </Button>
 
         </Container>
     )
