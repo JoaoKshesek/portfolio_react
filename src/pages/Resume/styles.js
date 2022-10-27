@@ -20,6 +20,9 @@ export const Technologies = styled.div`
     flex-wrap: wrap;
     gap: 50px;
     padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 980px;
+    background: red;
 
 `;
 

@@ -6,6 +6,7 @@ export const Container = styled.section`
     align-items: center;
     padding: 50px 30px;
     background: linear-gradient(110deg, rgba(170, 54, 124, 0.95), rgba(74, 47, 189, 0.95));
+    
     h2 {
         font-size: 2.8rem;
         font-weight: 700;
