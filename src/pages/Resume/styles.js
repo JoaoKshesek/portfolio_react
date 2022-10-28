@@ -22,13 +22,14 @@ export const Technologies = styled.div`
     padding-bottom: 50px;
     margin: 0 auto;
     max-width: 980px;
-    background: red;
+
+
 
 `;
 
 export const TechItem = styled.div`
 
-    width: 200px;
+
     display: flex;
     align-items: center;
     justify-content: center;

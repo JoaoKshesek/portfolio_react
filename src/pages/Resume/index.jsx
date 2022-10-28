@@ -75,11 +75,11 @@ export function Resume(){
 
             <hr />
 
+            <Technologies>
             <Section title={t('resume_technologies')}>
                 <p>{t('resume_technologies_description')}</p>
             </Section>
 
-            <Technologies>
                 
                 <TechItem>
                     <img src={html} alt="HTML 5 Logo" />

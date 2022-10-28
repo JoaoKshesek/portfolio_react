@@ -26,8 +26,7 @@ export const Container = styled.section`
         flex-direction: row;
         margin-top: 150px;
         gap: 200px;
-        max-width: 980px;
-        max-width: 500px;
+
     }
 `;
 export const Content = styled.div`
@@ -37,10 +36,8 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-around;
     @media ${device.laptop} { 
-        flex-direction: row;
         margin-top: 150px;
         gap: 200px;
-        max-width: 500px;
     }
 `;
 
