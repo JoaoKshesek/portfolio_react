@@ -17,18 +17,15 @@ export function Projects(){
                 <p>{t('resume_projects_description')}</p>
             </Section>
                 <Content>
-
-                <img src={quebraGalho} alt="imagem" />
-                <ResumeItem>
-                    <h3>{t('resume_project1_title')}</h3>
-                    <p>{t('resume_project1_description')}</p>
-                </ResumeItem>
-                    <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
-                        <Button title={t('resume_project1_button')} /> 
-                    </a>
+                    <img src={quebraGalho} alt="imagem" />
+                    <ResumeItem>
+                        <h3>{t('resume_project1_title')}</h3>
+                        <p>{t('resume_project1_description')}</p>
+                        <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
+                            <Button title={t('resume_project1_button')} /> 
+                        </a>
+                    </ResumeItem> 
                 </Content>
-
-
         </Container>
     )
 }

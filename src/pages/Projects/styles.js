@@ -13,7 +13,14 @@ export const Content = styled.section`
     padding-bottom: 50px;
 
     > img {
-        width: 60%;
+        max-width: 60%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+    }
+
+    .teste {
+        background-color: red;
     }
 
  `;
