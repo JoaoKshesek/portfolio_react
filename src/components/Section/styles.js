@@ -89,10 +89,12 @@ export const Content = styled.div`
 export const Teste = styled.div`
         display: flex;
         width: 100%;
-        justify-content: flex-start;
+        justify-content: center;
 
         @media ${device.laptop} { 
             width: 340px;
+            justify-content: flex-start;
+
         }
 
     
