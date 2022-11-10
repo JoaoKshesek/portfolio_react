@@ -1,5 +1,6 @@
 import { About } from "../pages/About";
 import { Resume } from "../pages/Resume";
+import { Technologies } from "../pages/Technologies";
 import { Projects } from "../pages/Projects";
 import { Contact } from "../pages/Contact";
 import { Home } from "../pages/Home";
@@ -21,6 +22,7 @@ function Main() {
       <Home />
       <About />
       <Resume />
+      <Technologies />
       <Projects />
       <Contact />
       <Footer />
