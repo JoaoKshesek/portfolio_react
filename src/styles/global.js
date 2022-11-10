@@ -1,5 +1,3 @@
-
-
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
@@ -41,6 +39,67 @@ export default createGlobalStyle`
         width: 100vw;
         background-color: #dcdcdc;
     }
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        color: ${({ theme }) => theme.COLORS.GRAY_500};
+        position: relative;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    h2::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background: ${({ theme }) => theme.COLORS.GRADIENT};
+        position: absolute;
+        top: 100%;
+        left: 0;
+        
+    }
+    h2::after {
+        content: '';
+        height: 2px;
+        width: 50%;
+        background: ${({ theme }) => theme.COLORS.GRADIENT};
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 8px;
+    }
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        background: ${({ theme }) => theme.COLORS.GRADIENT};
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 1.5em;
+        font-family: var(--ff-primary);
+        color: ${({ theme }) => theme.COLORS.GRAY_200};
+        text-align: justify;
+        padding-top: 10px;
+
+        > span {
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+
     ol, ul {
         list-style: none;
     }
@@ -78,4 +137,5 @@ export default createGlobalStyle`
         background: linear-gradient(95deg, rgba(170, 54, 124, 0.95), rgba(74, 47, 189, 0.95)); 
         border-radius: 2px;
     }
+
 `
