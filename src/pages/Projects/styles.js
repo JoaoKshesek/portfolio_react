@@ -1,26 +1,27 @@
 import styled from 'styled-components';
+import { device } from '../../components/MediaQuery'
+
 
 export const Container = styled.section`
 
  `;
-export const Content = styled.section`
 
-    width: 100%;
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_100};
+
+export const Technologie = styled.div`
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
     padding-bottom: 50px;
+    margin: 0 auto ;
+    max-width: 980px;
+    gap: 50px;
 
-    > img {
-        max-width: 60%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
+    @media ${device.tablet} { 
+        gap: 50px;
+        }
 
-    }
-
-    .teste {
-        background-color: red;
-    }
-
- `;
+    @media ${device.laptopL} { 
+        max-width: 1100px;
+        }
+`;
