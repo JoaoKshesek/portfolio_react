@@ -4,35 +4,40 @@ import { device } from '../../components/MediaQuery'
 
 export const Container = styled.section`
     width: 100%;
-    padding: 50px 30px;
     background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    
+    justify-content: center;    
  `;
-export const Content = styled.div`
-    max-width: 800px;
+ export const Content = styled.section`
+ width: 100%;
+ display: flex;
+
+ justify-content: center;
+ flex-direction: column;
+ margin: 50px auto;
+ padding: 0 30px;
+
+ @media ${device.laptop} { 
+     max-width: 980px;
+     flex-direction: row;
+     gap: 40px;
+     padding: 0;
+
+ }
+ @media ${device.laptopL} { 
+     max-width: 1100px;
+
+ }
+`;
+export const Description = styled.div`
     h2 {
-        font-size: 2.8rem;
-        font-weight: 700;
-        letter-spacing: 0.8px;
-        line-height: 1;
         color: ${({ theme }) => theme.COLORS.GRAY_100};
-        text-transform: uppercase;
-        margin-bottom: 15px;
+    }
+    h2::before, h2::after {
+        display: none;
     }
     p {
-        font-size: 16px;
-        letter-spacing: 0.8px;
-        line-height: 1.5em;
-        font-family: var(--ff-primary);
-        color: ${({ theme }) => theme.COLORS.GRAY_200};
-        text-align: justify;
         margin-bottom: 15px;
-    }
-    @media ${device.laptop} { 
-        max-width: 600px;
     }
 `;
 export const Links = styled.div`

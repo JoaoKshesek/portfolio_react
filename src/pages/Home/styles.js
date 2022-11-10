@@ -6,16 +6,20 @@ export const Container = styled.section`
     background: url(${background});
     background-position: right;
     background-size: cover;
-
     height: 100vh;
-    padding: 0px 30px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 0 30px;
+    @media ${device.laptop} { 
+        justify-content: flex-start;
+        padding: 0;
+
+    }
  `;
- export const Teste = styled.div`
+ export const Main = styled.div`
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -24,21 +28,27 @@ export const Container = styled.section`
 
     @media ${device.laptop} { 
         flex-direction: row;
-        margin-top: 150px;
         gap: 200px;
 
     }
 `;
 export const Content = styled.div`
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
     justify-content: space-around;
     @media ${device.laptop} { 
+        max-width: 980px;
         margin-top: 150px;
         gap: 200px;
     }
+    @media ${device.laptopL} { 
+    max-width: 1100px;
+
+}
 `;
 
 export const Header = styled.div`
@@ -48,27 +58,19 @@ export const Header = styled.div`
     gap: 2rem;
     padding: 50px 0 0px 0;
 
-    > h1 {
-        font-size: 3rem;
-        font-weight: 700;
-
-        line-height: 1;
-        text-transform: uppercase;
-
-
-    }
-
     > h2 {
         font-size: 2rem;
-        font-weight: 700;
         letter-spacing: 0.5px;
         line-height: 1;
         background: ${({ theme }) => theme.COLORS.GRADIENT};
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;
-
     }
+    > h2::before, h2::after {
+        display: none;
+    }
+    
     > p {
         font-size: 16px;
         letter-spacing: 0.8px;
@@ -76,10 +78,10 @@ export const Header = styled.div`
         font-family: var(--ff-primary);
         color: ${({ theme }) => theme.COLORS.GRAY_200};
         text-align: justify;
+        max-width: 500px;
     }
 
     @media ${device.laptop} { 
-       max-width: 500px;
        align-items: flex-start;
     }
 `;
@@ -111,7 +113,7 @@ export const Img = styled.div`
     align-items: center;
     justify-content: center;
     animation: updown 4s linear infinite;
-    transform: rotateY(180deg);
+    transform: ease-in-out rotateY(180deg);
   
 @keyframes updown {
     0% {
@@ -123,5 +125,21 @@ export const Img = styled.div`
     100% {
         transform: translateY(-30px);
     }
+}
+
+@media ${device.laptop} { 
+    animation: updown 6s linear infinite;
+    @keyframes updown {
+    0% {
+        transform: translateY(50px);
+    }
+    50% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
+
 }
 `;
