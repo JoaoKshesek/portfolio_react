@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.textarea`
     width: 100%;
     height: 150px;
-    background-color: rgba(244, 244, 244, 0.5);
+    background-color: rgba(244, 244, 244, 0.9);
     color: ${({ theme }) => theme.COLORS.GRAY_500};
     border: none;
     resize: none;
-    border: 1px solid rgba(244, 244, 244, 0.7);
+    border: 1px solid rgba(244, 244, 244, 1);
 
     margin-bottom: 8px;
     border-radius: 10px;
@@ -15,7 +15,7 @@ export const Container = styled.textarea`
     font-size: 16px;
 
     &::placeholder {
-        color: ${({ theme }) => theme.COLORS.GRAY_500};
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
     &:focus {
