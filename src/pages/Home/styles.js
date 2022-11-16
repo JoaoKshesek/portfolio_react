@@ -16,7 +16,9 @@ export const Container = styled.section`
     @media ${device.laptop} { 
         justify-content: flex-start;
         padding: 0;
-
+    }
+    @media ${device.laptopL} { 
+        height: 100%;
     }
  `;
  export const Main = styled.div`
