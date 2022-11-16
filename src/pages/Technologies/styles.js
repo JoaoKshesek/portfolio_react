@@ -8,7 +8,16 @@ export const Container = styled.section`
             height: 1px; 
             width: 100%;
             border: none;
-        }
+
+            @media ${device.laptop} { 
+                width: 1100px;
+                margin: 0 auto;
+            }
+
+            @media ${device.laptopL} { 
+                width: 1200px;
+            }
+        } 
     
  `;
 
@@ -21,6 +30,7 @@ export const Technologie = styled.div`
     padding-bottom: 50px;
     margin: -30px auto 0;
     max-width: 980px;
+
 
     @media ${device.tablet} { 
         gap: 50px;

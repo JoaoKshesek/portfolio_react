@@ -4,9 +4,12 @@ import { useTranslation } from 'react-i18next';
 import html from '/src/assets/images/html.png';
 import css from '/src/assets/images/css.png';
 import javascript from '/src/assets/images/javascript.png';
+import typescript from '/src/assets/images/typescript.png';
 import react from '/src/assets/images/react.png';
 import node from '/src/assets/images/node.png';
+import php from '/src/assets/images/php.png';
 import git from '/src/assets/images/git.png';
+
 
 import { Section } from "../../components/Section"
 import { Content } from "../../components/Content"
@@ -30,7 +33,7 @@ export function Technologies(){
                 
             <Technologie>
 
-            
+
                 <TechItem>
                     <img src={html} alt="HTML 5 Logo" />
 
@@ -48,13 +51,21 @@ export function Technologies(){
                 </TechItem>
 
                 <TechItem>
-                    <img src={javascript} alt="JavaScript Logo" />
+                    <img src={javascript} alt="Javascript Logo" />
 
-                        <h3>JavaScript</h3>
+                        <h3>Javascript</h3>
                         <p>{t('resume_technologies_javascript')}</p>
 
                 </TechItem>
 
+                <TechItem>
+                    <img src={typescript} alt="Typescript Logo" />
+
+                        <h3>Typescript</h3>
+                        <p>{t('resume_technologies_javascript')}</p>
+
+                </TechItem>                
+                
                 <TechItem>
                     <img src={react} alt="ReactJS Logo" />
 
@@ -72,6 +83,14 @@ export function Technologies(){
                 </TechItem>
 
                 <TechItem>
+                    <img src={php} alt="PHP Logo" />
+
+                        <h3>PHP</h3>
+                        <p>{t('resume_technologies_nodejs')}</p>
+
+                </TechItem>
+
+                <TechItem>
                     <img src={git} alt="Git Logo" />
 
                         <h3>Git</h3>
@@ -80,8 +99,8 @@ export function Technologies(){
                 </TechItem>
             
                 </Technologie>
-
             <hr />
+
         </Container>
     )
 }

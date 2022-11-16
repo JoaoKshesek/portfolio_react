@@ -13,7 +13,7 @@ export const Container = styled.section`
         max-width: 300px;
         }
         @media ${device.laptopL} { 
-        max-width: 350px;
+        max-width: 275px;
         }
 
  `;
