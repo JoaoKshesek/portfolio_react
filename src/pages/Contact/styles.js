@@ -1,11 +1,28 @@
 import styled from 'styled-components';
+import background from '../../assets/images/form-bg.jpg';
 
 export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 30px;
-    background: linear-gradient(110deg, rgba(170, 54, 124, 0.95), rgba(74, 47, 189, 0.95));
+    background: url(${background});
+    background-size: cover;
+    
+
+    .teste {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 100px 0;
+        justify-content: center;
+        gap: 200px;
+        
+    }
+
+    .form {
+        width: 450px;
+    }
     
     h2 {
         font-size: 2.8rem;
