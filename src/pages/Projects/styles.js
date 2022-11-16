@@ -7,7 +7,7 @@ export const Container = styled.section`
  `;
 
 
-export const Technologie = styled.div`
+export const Main = styled.div`
     display: flex;
     align-items: flex-start;
     flex-direction: column;

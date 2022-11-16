@@ -1,5 +1,3 @@
-import "./style.css"
-
 import { Container, Content, Wrap } from "./styles";
 
 export function Loading(){
@@ -7,7 +5,7 @@ export function Loading(){
     return(
       <Container>
         <Content>
-        <Wrap>
+          <Wrap>
             <div className="wall wall-right"></div>
             <div className="wall wall-left"></div>   
             <div className="wall wall-top"></div>

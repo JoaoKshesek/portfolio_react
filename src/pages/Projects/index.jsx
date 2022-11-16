@@ -14,7 +14,7 @@ import { ProjectItem } from "../../components/ProjectItem"
 
 
 
-import { Container, Technologie } from "./styles";
+import { Container, Main } from "./styles";
 
 export function Projects(){
     const {t} = useTranslation();
@@ -26,11 +26,11 @@ export function Projects(){
                 </Section>
             </Content>
                 
-            <Technologie>
+            <Main>
 
                 <ProjectItem>
                     <img src={focusTimer} alt="imagem" />
-                    <div>
+                    <div className='teste'>
                         <h3>{t('resume_project1_title')}</h3>
                         <p>{t('resume_project1_description')}</p>
                         <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
@@ -40,7 +40,7 @@ export function Projects(){
                 </ProjectItem>
                 <ProjectItem>
                     <img src={quebraGalho} alt="imagem" />
-                    <div>
+                    <div className='teste'>
                         <h3>{t('resume_project1_title')}</h3>
                         <p>{t('resume_project1_description')}</p>
                         <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
@@ -50,7 +50,7 @@ export function Projects(){
                 </ProjectItem>
 
             
-                </Technologie>
+                </Main>
 
         </Container>
     )
