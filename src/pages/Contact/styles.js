@@ -16,12 +16,31 @@ export const Container = styled.section`
         align-items: center;
         margin: 100px 0;
         justify-content: center;
-        gap: 200px;
+        gap: 100px;
         
     }
-
     .form {
-        width: 450px;
+        display: flex;
+        flex-direction: column;
+        
+        > button {
+            background: rgb(255,255,255,);
+            color: rgba( 112, 18, 112 );
+            border: 2px solid rgba( 112, 18, 112 );
+            
+            height: 56px;
+            padding: 0 16px;
+            border-radius: 7px;
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+            background: white;
+            border: 2px solid white;
+            }
+    }
     }
     
     h2 {
@@ -33,7 +52,5 @@ export const Container = styled.section`
         text-transform: uppercase;
         margin-bottom: 15px;
     }
-    > Button {
-        border: 1px solid rgba(244,244,244, 0.7);
-    }
  `;
+
