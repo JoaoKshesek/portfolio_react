@@ -83,11 +83,11 @@
 
 		"contact": "Get in Touch",
 
-		"contact_name": "First Name",
-		"contact_email": "Email Address",
-		"contact_phone": "Phone Number",
+		"contact_name": "Name",
+		"contact_email": "Email",
+		"contact_phone": "Number",
 		"contact_message": "Message",
-		"contact_button": "Send",
+		"contact_button": "Submit",
 
 
 		"copyright": "Copyright 2022. All Rights Reserved."
