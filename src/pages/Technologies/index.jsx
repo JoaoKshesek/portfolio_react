@@ -62,7 +62,7 @@ export function Technologies(){
                     <img src={typescript} alt="Typescript Logo" />
 
                         <h3>Typescript</h3>
-                        <p>{t('resume_technologies_javascript')}</p>
+                        <p>{t('resume_technologies_typescript')}</p>
 
                 </TechItem>                
                 
@@ -86,7 +86,7 @@ export function Technologies(){
                     <img src={php} alt="PHP Logo" />
 
                         <h3>PHP</h3>
-                        <p>{t('resume_technologies_nodejs')}</p>
+                        <p>{t('resume_technologies_php')}</p>
 
                 </TechItem>
 

@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import { device } from '../../components/MediaQuery'
 
 export const Container = styled.div`
-    width: 400px;
+    width: 100%;
     position: relative;
+
+
+
     > label {
         position: absolute;
         left: 0;

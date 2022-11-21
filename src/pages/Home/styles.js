@@ -42,6 +42,12 @@ export const Content = styled.div`
     gap: 50px;
     align-items: center;
     justify-content: space-around;
+
+    > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     @media ${device.laptop} { 
         max-width: 980px;
         margin-top: 150px;
@@ -93,7 +99,7 @@ export const Button = styled.button`
     height: 45px;
     margin-bottom: 30px ;
     font-size: 18px;
-    background: linear-gradient(90deg, rgba(170, 54, 124, 0.6), rgba(74, 47, 189, 0.6));
+    background: ${({ theme }) => theme.COLORS.GRADIENT_BUTTON};
     border: 1px solid rgba(255, 255, 255, 0.14);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);

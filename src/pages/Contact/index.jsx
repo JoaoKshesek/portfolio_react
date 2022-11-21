@@ -6,7 +6,7 @@ import astronautCoding from '../../assets/images/astronaut-coding.png';
 
 import { Input } from "../../components/Input"
 
-import { Container } from "./styles";
+import { Container, Main } from "./styles";
 
 export function Contact() {
     const { t } = useTranslation();
@@ -17,11 +17,11 @@ export function Contact() {
 
     const [message, setMessage] = useState('')
     return (
-        <Container>
+        <Container id="contact">
             <h2>{t('contact')}</h2>
-            <div className='teste'>
+            <Main>
 
-                <div>
+                <div className='img'>
                     <img src={astronautCoding} alt="" />
                 </div>
                 <form className='form'>
@@ -75,7 +75,7 @@ export function Contact() {
                     
                     <button type="submit" >{t('contact_button')}</button>
                 </form>
-            </div>
+            </Main>
         </Container>
     )
 }

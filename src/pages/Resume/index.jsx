@@ -11,7 +11,7 @@ import { Container,} from "./styles";
 export function Resume(){
     const {t} = useTranslation();
     return(
-        <Container>
+        <Container id="resume">
             <Content>
                 <Section title={t('resume_work')}>
                     <ResumeItem>

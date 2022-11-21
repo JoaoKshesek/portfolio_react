@@ -10,9 +10,7 @@ export const Container = styled.section`
     margin-top: 30px; 
 
     > a h3:hover {
-        background: ${({ theme }) => theme.COLORS.GRAY_500};; 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        filter: brightness(1.75);
         }
     @media ${device.laptop} { 
         margin-top: 0;

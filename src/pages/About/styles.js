@@ -40,11 +40,22 @@ export const Description = styled.div`
         margin-bottom: 15px;
     }
 `;
-export const Links = styled.div`
+export const SocialMedia = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 10px 0;
+    > a {
+        &:hover {
+            filter: brightness(1.5);
+        }
+    }
+    @media ${device.laptop} { 
+        gap: 20px;
+        > a:last-child {
+            display: none;
+        }
+    }
 `;
 
 export const Img = styled.div`
@@ -55,5 +66,23 @@ export const Img = styled.div`
     }
     @media ${device.laptop} { 
         display: block;
+    }
+`;
+
+
+export const Links = styled.div`
+    
+    @media ${device.laptop} { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+`;
+
+
+export const ResumeBtn = styled.div`
+    width: 100%;
+    @media ${device.laptop} { 
+        width: 60%;
     }
 `;

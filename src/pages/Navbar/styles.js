@@ -9,7 +9,7 @@ export const Container = styled.section`
     position: fixed;
     width: 75vw;
     height: 100vh;
-    background: linear-gradient(95deg, rgba(170, 54, 124, 0.95), rgba(74, 47, 189, 0.95));
+    background: linear-gradient(105deg,rgba(51,3,77,0.95),rgba(59,0,64,0.95),rgba(96,0,102,0.95),rgba(160,1,170,0.95));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     right: -100vw;
 
@@ -18,8 +18,9 @@ export const Container = styled.section`
         
         >li a{
             text-transform: uppercase;
-            font-family: var(--ff-primary);
+
             font-size: 1.6rem;
+            font-weight: 700;
             color: white;
             text-decoration: none;
             height: 50px;
@@ -48,7 +49,7 @@ export const Container = styled.section`
 {
     width: 5rem;
     height: 5rem;
-    background: linear-gradient(100deg, rgba(170, 54, 124, 0.8), rgba(74, 47, 189, 0.9));
+    background: linear-gradient(95deg,rgba(51,3,77,0.95),rgba(59,0,64,0.95),rgba(96,0,102,0.95),rgba(160,1,170,0.95));
     position: fixed;
     right: 1rem;
     top: 1rem;

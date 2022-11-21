@@ -8,12 +8,12 @@ import whatsapp from '/src/assets/images/whatsapp.svg';
 
 import { Button } from "../../components/Button"
 
-import { Container, Content, Description, Img, Links } from "./styles";
+import { Container, Content, Description, Img, SocialMedia, ResumeBtn, Links } from "./styles";
 
 export function About(){
     const {t} = useTranslation();
     return(
-        <Container>
+        <Container id="about">
             <Content>
                 <Img>
                     <img src={hero} alt="" />
@@ -24,23 +24,26 @@ export function About(){
                     <p>{t('about_p2')}</p>
                     <p>{t('about_p3')}</p>
                     <Links>
-                        <a href="https://github.com/JoaoKshesek" target="_blank">
-                            <img src={github} alt="Link Github" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/joao-valter-kshesek/" target="_blank">
-                            <img src={linkedin} alt="Link LinkedIn" />
-                        </a>
-                        <a href="https://api.whatsapp.com/send/?phone=5541995531007" target="_blank">
-                            <img src={whatsapp} alt="Link WhatsApp" />
-                        </a>
+                        <SocialMedia>
+                            <a href="https://github.com/JoaoKshesek" target="_blank">
+                                <img src={github} alt="Link Github" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/joao-valter-kshesek/" target="_blank">
+                                <img src={linkedin} alt="Link LinkedIn" />
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=5541995531007" target="_blank">
+                                <img src={whatsapp} alt="Link WhatsApp" />
+                            </a>
+                        </SocialMedia>
+                        <ResumeBtn>
+                            <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
+                                <Button title={t('about_download_EN')} /> 
+                            </a>
+                            <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
+                                <Button title={t('about_download_PT')} /> 
+                            </a>
+                        </ResumeBtn>
                     </Links>
-
-                    <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
-                        <Button title={t('about_download_EN')} /> 
-                    </a>
-                    <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
-                        <Button title={t('about_download_PT')} /> 
-                    </a>
                 </Description>
             </Content>
         </Container>

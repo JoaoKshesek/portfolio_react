@@ -31,7 +31,7 @@ export function Home(){
 
     
     return(
-        <Container>
+        <Container id="home">
           <Content>
             <Main>
                 <Header>
@@ -45,11 +45,11 @@ export function Home(){
                   <img src={astronaut} alt="Astronaut reading"/>
                 </Img>
             </Main>
-
-
-            <Button>
-              {t('header_button')}
-            </Button>
+            <a href="#about">
+              <Button>
+                {t('header_button')}
+              </Button>
+            </a>
           </Content>
 
         </Container>

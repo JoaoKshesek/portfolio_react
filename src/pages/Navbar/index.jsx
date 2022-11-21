@@ -28,11 +28,11 @@ export const Navbar = () => {
       </div>
       <nav id="navigation" className={'navigation ' + (state ? 'open' : 'close')} onClick={toggle}>
         <ul>
-          <li><a href="home"  className='active'>{t('navbar_home')}</a></li>
-          <li><a href="about">{t('navbar_about')}</a></li>
-          <li><a href="resume">{t('navbar_resume')}</a></li>
-          <li><a href="projects">{t('navbar_projects')}</a></li>
-          <li><a href="contact">{t('navbar_contact')}</a></li>
+          <li><a href="#home">{t('navbar_home')}</a></li>
+          <li><a href="#about">{t('navbar_about')}</a></li>
+          <li><a href="#resume">{t('navbar_resume')}</a></li>
+          <li><a href="#projects">{t('navbar_projects')}</a></li>
+          <li><a href="#contact">{t('navbar_contact')}</a></li>
           <li className='translate'>
             <button onClick={() => changeLanguage('en')}>
               <img src={usaFlag} />

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.button`
     width: 100%;
-    background: ${({ theme }) => theme.COLORS.GRADIENT};
+    background: ${({ theme }) => theme.COLORS.GRADIENT_BUTTON};
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     height: 56px;
@@ -14,5 +14,8 @@ export const Container = styled.button`
     font-size: 18px;
     cursor: pointer;
     text-transform: uppercase;
-    border: 1px solid rgba(244, 244, 244, 0.7);
+
+    &:hover {
+        filter: brightness(1.75);
+    }
 `;
