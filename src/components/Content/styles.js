@@ -10,6 +10,7 @@ export const Container = styled.section`
     padding: 0 30px;
 
     @media ${device.laptop} { 
+        width: 100%;
         max-width: 980px;
         flex-direction: row;
         gap: 40px;

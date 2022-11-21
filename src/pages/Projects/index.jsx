@@ -19,7 +19,7 @@ import { Container, Main } from "./styles";
 export function Projects(){
     const {t} = useTranslation();
     return(
-        <Container>
+        <Container id="projects">
             <Content>
                 <Section title={t('resume_projects')}>
                     <br/><p>{t('resume_projects_description')}</p>
@@ -29,23 +29,28 @@ export function Projects(){
             <Main>
 
                 <ProjectItem>
-                    <img src={focusTimer} alt="imagem" />
-                    <div className='teste'>
-                        <h3>{t('resume_project1_title')}</h3>
-                        <p>{t('resume_project1_description')}</p>
+                    <div className="img img-1"> 
+
+                    </div>
+                    <div className='texto texto-1'>
+                        <h3>{t('resume_project2_title')}</h3>
+                        <p>{t('resume_project2_description')}</p>
                         <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
-                            <Button title={t('resume_project1_button')} /> 
+                            <Button title={t('resume_project_button')} /> 
                         </a>
                     </div>
                 </ProjectItem>
                 <ProjectItem>
-                    <img src={quebraGalho} alt="imagem" />
-                    <div className='teste'>
+
+                    <div className='texto texto-2'>
                         <h3>{t('resume_project1_title')}</h3>
                         <p>{t('resume_project1_description')}</p>
                         <a href="https://github.com/JoaoKshesek/QuebraGalho" target="_blank">
-                            <Button title={t('resume_project1_button')} /> 
+                            <Button title={t('resume_project_button')} /> 
                         </a>
+                    </div>
+                    <div className="img img-2"> 
+
                     </div>
                 </ProjectItem>
 
