@@ -11,7 +11,9 @@ export const Container = styled.section`
         color: ${({ theme }) => theme.COLORS.GRAY_100} !important;
     }
 
-    
+    a {
+        width: 100%;
+    }
 
 .texto {
 

@@ -36,10 +36,10 @@ export function About(){
                             </a>
                         </SocialMedia>
                         <ResumeBtn>
-                            <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
+                            <a href="https://raw.githubusercontent.com/JoaoKshesek/portfolio/master/src/assets/resumes/Resume_EN_US.pdf" target="blank">
                                 <Button title={t('about_download_EN')} /> 
                             </a>
-                            <a href="https://github.com/JoaoKshesek/portfolio_react/tree/main/src/components/Resume" target="blank">
+                            <a href="https://raw.githubusercontent.com/JoaoKshesek/portfolio/master/src/assets/resumes/Resume_PT_BR.pdf" target="blank">
                                 <Button title={t('about_download_PT')} /> 
                             </a>
                         </ResumeBtn>
