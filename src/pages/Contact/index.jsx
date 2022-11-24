@@ -1,30 +1,47 @@
-import '../../assets/translations/i18n'
-import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
-
-import astronautCoding from '../../assets/images/astronaut-coding.png';
-
 import { Input } from "../../components/Input"
-
 import { Container, Main } from "./styles";
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../assets/translations/i18n'
+import emailjs from '@emailjs/browser';
+import astronautCoding from '../../assets/images/astronaut-coding.png';
 
 export function Contact() {
     const { t } = useTranslation();
-
     const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
-
+    const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+
+    function sendEmail(e){
+        e.preventDefault();
+        const templateParams = {
+            from_name: name,
+            phone: phone,
+            email: email,
+            message: message
+        }
+        emailjs.send("service_ry5prol", "template_oo7johc", templateParams, "Ktrwfc_2JRzDf-gRv")
+        .then((response) => {
+            alert("E-mail enviado com sucesso!")
+            console.log("EMAIL ENVIADO", response.status, response.text)
+            setName('')
+            setPhone('')
+            setEmail('')
+            setMessage('')
+        }, (err) => {
+            console.log("erro", err)
+            alert("Erro ao enviar o e-mail. Tente novamente mais tarde.")
+        }) 
+    }
     return (
         <Container id="contact">
             <h2>{t('contact')}</h2>
             <Main>
-
                 <div className='img'>
                     <img src={astronautCoding} alt="" />
                 </div>
-                <form className='form'>
+                <form className='form' onSubmit={sendEmail}>
                     <Input>
                         <input 
                             type="text" 
@@ -33,11 +50,9 @@ export function Contact() {
                             onChange={(e) => setName(e.target.value)}
                             value={name}
                             required
-
                         />
                         <label htmlFor="name">{t('contact_name')}</label>
                     </Input>
-
                     <Input>
                         <input 
                             type="phone" 
@@ -46,11 +61,9 @@ export function Contact() {
                             onChange={(e) => setPhone(e.target.value)}
                             value={phone}
                             required
-
                         />
                         <label htmlFor="phone">{t('contact_phone')}</label>
                     </Input>
-
                     <Input>
                         <input 
                             type="email" 
@@ -72,7 +85,6 @@ export function Contact() {
                         />
                         <label htmlFor="message">{t('contact_message')}</label>
                     </Input>
-                    
                     <button type="submit" >{t('contact_button')}</button>
                 </form>
             </Main>
