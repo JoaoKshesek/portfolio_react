@@ -100,7 +100,7 @@ export const Button = styled.button`
     margin-bottom: 30px ;
     font-size: 18px;
     background: ${({ theme }) => theme.COLORS.GRADIENT_BUTTON};
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    border: none;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -109,6 +109,10 @@ export const Button = styled.button`
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.75);
+    }
 
     @media ${device.mobileL} { 
        max-width: 400px;
