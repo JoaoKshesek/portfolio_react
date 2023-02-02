@@ -50,8 +50,9 @@ export const Content = styled.div`
     }
     @media ${device.laptop} { 
         max-width: 980px;
-        margin-top: 150px;
-        gap: 200px;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
     }
     @media ${device.laptopL} { 
     max-width: 1100px;
