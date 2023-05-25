@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import background from '../../assets/images/header-bg.png'
 import { device } from '../../components/MediaQuery'
 
 export const Container = styled.section`
-    background: url(${background});
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     background-position: right;
     background-size: cover;
     height: 100vh;
@@ -36,12 +35,13 @@ export const Container = styled.section`
 `;
 export const Content = styled.div`
     width: 100%;
-
+    height: 100vh;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     > a {
         width: 100%;
@@ -85,7 +85,7 @@ export const Header = styled.div`
         letter-spacing: 0.8px;
         line-height: 1.5em;
         font-family: var(--ff-primary);
-        color: ${({ theme }) => theme.COLORS.GRAY_200};
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
         text-align: justify;
         max-width: 500px;
     }

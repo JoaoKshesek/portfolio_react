@@ -1,5 +1,6 @@
 import '../../assets/translations/i18n'
 import { useTranslation } from 'react-i18next';
+import { ReactNebula  } from "@flodlc/nebula";
 
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react';
@@ -32,6 +33,18 @@ export function Home(){
     
     return(
         <Container id="home">
+            <ReactNebula config={{
+               starsCount: 1000,
+               starsColor: "#FFFFFF",
+               starsRotationSpeed: 3,
+               cometFrequence: 100,
+               nebulasIntensity: 8,
+               bgColor: "rgb(8,8,8)",
+               sunScale: 5,
+               planetsScale: 4,
+               solarSystemOrbite: 20,
+               solarSystemSpeedOrbit: 60
+           }} />
           <Content>
             <Main>
                 <Header>
@@ -41,9 +54,6 @@ export function Home(){
                     </h2>
                     <p>{t('header_description')}</p>
                 </Header>
-                <Img>
-                  <img src={astronaut} alt="Astronaut reading"/>
-                </Img>
             </Main>
             <a href="#about">
               <Button>

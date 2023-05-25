@@ -14,7 +14,15 @@ export function Resume(){
         <Container id="resume">
             <Content>
                 <Section title={t('resume_work')}>
+
                     <ResumeItem>
+                        <a href="https://signotech.com.br/" target="_blank"><h3>{t('resume_job2_company')}</h3></a>
+                        <p><span>{t('resume_job4_occupation')}</span> • {t('resume_job4_date')}</p>
+                        <p>{t('resume_job4_details')}</p>
+                        <p><span>{t('resume_job3_occupation')}</span> • {t('resume_job3_date')}</p>
+                        <p>{t('resume_job3_details')}</p>
+                    </ResumeItem>
+                    {/* <ResumeItem>
                         <a href="http://www.despachanteduarte.com.br/" target="_blank"><h3>{t('resume_job2_company')}</h3></a>
                         <p><span>{t('resume_job2_occupation')}</span> • {t('resume_job2_date')}</p>
                         <p>{t('resume_job2_details')}</p>
@@ -24,7 +32,7 @@ export function Resume(){
                         <a href="https://portalciveltrabalhista.com.br/" target="_blank"><h3>{t('resume_job1_company')}</h3></a>
                         <p><span>{t('resume_job1_occupation')}</span> • {t('resume_job1_date')}</p>
                         <p>{t('resume_job1_details')}</p>
-                    </ResumeItem>
+                    </ResumeItem> */}
                 </Section>
             </Content>
             <hr />
@@ -43,7 +51,7 @@ export function Resume(){
                     <p>{t('resume_course3_details')}</p>
                 </ResumeItem>
 
-                <ResumeItem>
+                {/* <ResumeItem>
                     <a href="https://onebitcode.com/" target="_blank"><h3>{t('resume_course2_company')}</h3></a>
                     <p><span>{t('resume_course2_title')}</span> • {t('resume_course2_date')}</p>
                     <p>{t('resume_course2_details')}</p>
@@ -53,7 +61,7 @@ export function Resume(){
                     <a href="https://pythonacademy.com.br/" target="_blank"><h3>{t('resume_course1_company')}</h3></a>
                     <p><span>{t('resume_course1_title')}</span> • {t('resume_course1_date')}</p>
                     <p>{t('resume_course1_details')}</p>
-                </ResumeItem>
+                </ResumeItem> */}
             </Section>
             </Content>
 
