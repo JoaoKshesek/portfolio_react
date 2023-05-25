@@ -24,6 +24,16 @@
 		
 		"resume_work": "Trabalho",
 
+		"resume_job4_company":"Signo Tech",
+		"resume_job4_occupation":"Desenvolvedor de Software Junior",
+		"resume_job4_date":"Abril, 2022 — Atualmente",
+		"resume_job4_details":"Atuei no desenvolvimento, criação e manutenção de aplicações e-commerce Full-Stack, utilizando ReactJs e NodeJs. Também ajudei no desenvolvimento de aplicativos nativos, utilizando React Native.",
+
+		"resume_job3_company":"Signo Tech",
+		"resume_job3_occupation":"Estagiário de Desenvolvimento de Software",
+		"resume_job3_date":"Outubro, 2022 — Março, 2023",
+		"resume_job3_details":"Atuei no desenvolvimento, suporte e manutenção de aplicações web para os clientes da SignoTech, utilizando Javascript e PHP como tecnologias principais junto com ReactJs e Laravel.",
+
 		"resume_job2_company":"Despachante Duarte",
 		"resume_job2_occupation":"Assistente Administrativo",
 		"resume_job2_date":"Fevereiro, 2021 — Abril, 2022",
