@@ -47,6 +47,7 @@ export const Container = styled.section`
 
 .nav-toggler
 {
+    z-index: 100;
     width: 5rem;
     height: 5rem;
     background: linear-gradient(95deg,rgba(51,3,77,0.95),rgba(59,0,64,0.95),rgba(96,0,102,0.95),rgba(160,1,170,0.95));
