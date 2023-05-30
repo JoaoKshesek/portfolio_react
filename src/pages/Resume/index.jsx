@@ -16,7 +16,7 @@ export function Resume(){
                 <Section title={t('resume_work')}>
 
                     <ResumeItem>
-                        <a href="https://signotech.com.br/" target="_blank"><h3>{t('resume_job2_company')}</h3></a>
+                        <a href="https://signotech.com.br/" target="_blank"><h3>{t('resume_job4_company')}</h3></a>
                         <p><span>{t('resume_job4_occupation')}</span> • {t('resume_job4_date')}</p>
                         <p>{t('resume_job4_details')}</p>
                         <p><span>{t('resume_job3_occupation')}</span> • {t('resume_job3_date')}</p>
