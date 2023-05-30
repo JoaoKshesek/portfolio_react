@@ -3,14 +3,11 @@ import { device } from '../../components/MediaQuery'
 
 export const Container = styled.section`
     background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-    background-position: right;
-    background-size: cover;
     height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     padding: 0 30px;
     @media ${device.laptop} { 
         justify-content: flex-start;
@@ -27,15 +24,11 @@ export const Container = styled.section`
     align-items: center;
     justify-content: space-around;
 
-    @media ${device.laptop} { 
-        flex-direction: row;
-        gap: 200px;
-
-    }
 `;
 export const Content = styled.div`
     width: 100%;
-    height: 100vh;
+    margin-top: 10vh;
+    height: 80vh;
     z-index: 1;
     display: flex;
     flex-direction: column;
